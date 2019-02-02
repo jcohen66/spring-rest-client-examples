@@ -96,10 +96,6 @@ public class RestTemplateExamplesTest {
 
     }
 
-    @Test(expected = ResourceAccessException.class)
-    public void updateCustomerUsingPatchSunHttp() {
-
-    }
 
     @Test
     public void updateCustomerUsingPatch() throws Exception {
